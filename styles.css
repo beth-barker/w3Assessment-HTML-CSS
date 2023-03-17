@@ -1,0 +1,99 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	width: 200px;
+}
+
+#about-me {
+	text-align: center;
+}
+
+table {
+	border: black solid 1px;
+	background-color: aliceblue;
+}
+
+th {
+	border: black solid 1px;
+	background-color: #f9a4b3;
+}
+
+td {
+	border: black solid 1px;
+}
+
+p {
+	font-size: large;
+}
+
+#mySkills {
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+}
+
+#btn-favs {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.btn {
+	background-color: yellow;
+	height: 50px;
+	width: 150px;
+}
+
+.slcPics {
+	width: 100%;
+}
+
+.foodli {
+	font-size: 20px;
+}
+
+.random-rec {
+	margin: auto;
+	border: 2px black dotted;
+	width: 350px;
+	padding: 2%;
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
